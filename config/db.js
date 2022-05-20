@@ -9,7 +9,9 @@ mongoose
             useCreateIndex: true,
             useFindAndModify: false
         }
-
     )
     .then(() => console.log("connected MongoDB"))
     .catch((err) => console.log("Faild to connect to MongoDB", err));
+
+
+    
